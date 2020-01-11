@@ -1,22 +1,3 @@
-Langkah-langkah:
-
-1. Buat file csv dengan format seperti pada contoh di folder examples (contoh_1.csv, contoh_2.csv)
-2. Buat file sorted.csv (ini wajib) dengan format seperti pada contoh di folder examples (sorted.csv)
-3. Letakkan semua file tadi dalam satu folder
-4. Letakkan SimpleScoreMergerTool di dalam folder yang sama dengan semua file tadi
-5. Jalankan SimpleScoreMergerTool
-6. Jika berhasil, hasil ada di result.csv
-
-
-
-Catatan:
-
--Format NIS dan Nama pada sorted harus diikuti
--Format NIS pada setiap file csv harus diikuti
--Tulisan "NIS" harus kapital
--Semua NIS harus berbeda (unik) satu sama lain
--Semua nama mata pelajaran harus berbeda (unik) satu sama lain
-
 1. Make .csv file with the same format just like example_1.csv or example_2.csv in the example folder
 2. Make sorted.csv (required) with the same format just like sorted.csv in the example folder
 3. Put all the files in one folder
