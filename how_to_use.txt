@@ -16,3 +16,19 @@ Catatan:
 -Tulisan "NIS" harus kapital
 -Semua NIS harus berbeda (unik) satu sama lain
 -Semua nama mata pelajaran harus berbeda (unik) satu sama lain
+
+1. Make .csv file with the same format just like example_1.csv or example_2.csv in the example folder
+2. Make sorted.csv (required) with the same format just like sorted.csv in the example folder
+3. Put all the files in one folder
+4. Put SimpleScoreMergerTool.exe in the same folder with all the other files
+5. Run SimpleScoreMergerTool.exe
+6. If succeeded, the result will exists in result.csv
+
+Additional notes:
+-NIS stands for "Nomor Induk Sekolah" in Bahasa Indonesia, or "Student Identification Number" in English
+-Nama is "name" in English
+-The format of NIS and Nama in sorted.csv must be followed
+-The format of NIS in evry other files must be followed
+-Because this tool is treating NIS and course names as key in dictionary (see https://docs.python.org/3/tutorial/datastructures.html#dictionaries), here are some restrictions:
+  a. Every NIS must be different each other (unique)
+  b. Every course names must be different for each semester (if it is a different semester)
